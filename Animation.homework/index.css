@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  margin: 300px 655px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  width: 120px;
+}
+
+.circle__1 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  animation-name: first;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.circle__2 {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  animation-name: second;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle__3 {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  animation-name: third;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle__4 {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  animation-name: fourth;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes first {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 60px;
+    top: 0px;
+  }
+  50% {
+    left: 60px;
+    top: 60px;
+  }
+  75% {
+    left: 0px;
+    top: 60px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes second {
+  0% {
+    left: 60px;
+    top: 0;
+  }
+  25% {
+    left: 60px;
+    top: 60px;
+  }
+  50% {
+    left: 0px;
+    top: 60px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 60px;
+    top: 0;
+  }
+}
+
+@keyframes third {
+  0% {
+    left: 0px;
+    top: 60px;
+  }
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: 60px;
+    top: 0px;
+  }
+  75% {
+    left: 60px;
+    top: 60px;
+  }
+  100% {
+    left: 0px;
+    top: 60px;
+  }
+}
+
+@keyframes fourth {
+  0% {
+    left: 60px;
+    top: 60px;
+  }
+  25% {
+    left: 0px;
+    top: 60px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    left: 60px;
+    top: 0px;
+  }
+  100% {
+    left: 60px;
+    top: 60px;
+  }
+}
